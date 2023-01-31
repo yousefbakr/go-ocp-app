@@ -10,9 +10,9 @@ import (
 
 func main() {
         ctx := context.Background()
-        endpoint := "play.min.io"
-        accessKeyID := "Q3AM3UQ867SPQQA43P2F"
-        secretAccessKey := "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG"
+        endpoint := "http://localhost:9000"
+        accessKeyID := "hz9zhbwDXQpxYAjX"
+        secretAccessKey := "3B8lOjyaP0l1JqLXx4bPa65rueJbhpiZ"
         useSSL := true
 
         // Initialize minio client object.
